@@ -1,0 +1,30 @@
+# Ignore Maven build output
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# STS and Eclipse IDE files
+.env
+.metadata/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# Application binaries
+*.jar
+*.war
+
+# Logs
+*.log
+
+# Sensitive configuration files (suggest using .example versions)
+src/main/resources/application.properties
+src/main/resources/application-docker.properties
+src/main/resources/application-test.properties
+
+# OS-specific files
+.DS_Store
+Thumbs.db
